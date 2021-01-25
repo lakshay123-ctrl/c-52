@@ -1,0 +1,38 @@
+body{
+background-image:url("background1.png");
+}
+
+.header {
+    background-image:url("background.jpg");
+    display : flex;
+    justify-content:space-between;
+    font-size:20px;
+    color:white;
+    text-align:  center;
+}
+
+.grid{
+display : flex;
+flex-wrap:wrap;
+}
+
+.origami{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    opacity:0.5;
+   
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:white;
+}
+
+.origami:hover{
+opacity:1;
+border:black solid 2px;
+}
+
